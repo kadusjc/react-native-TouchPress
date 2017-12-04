@@ -1,0 +1,26 @@
+{
+	"name": "TouchPress",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"emule": "emulator @FunkEstouro",
+		"start": "react-native start",
+		"android": "react-native run-android",
+		"clean": "cd android && ./gradlew clean",
+		"ios": "react-native run-ios",
+		"test": "node node_modules/jest/bin/jest.js --watch"
+	},
+	"dependencies": {
+		"react": "16.0.0",
+		"react-native": "0.50.4"
+	},
+	"devDependencies": {
+		"babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.2.1",
+		"react-test-renderer": "16.0.0"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
